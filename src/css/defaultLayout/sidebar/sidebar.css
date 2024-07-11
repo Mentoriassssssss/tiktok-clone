@@ -1,0 +1,48 @@
+.sidebar_container {
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+    align-items: stretch;
+    background-color: var(--container-background-color);
+    min-height: 100%;
+    border-top: 2px var(--highlight-background-color) solid;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.sidebar_navbar_itemsList {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+}
+
+.sidebar_navbar_itemsList li {
+    padding: 15px 0 15px 0;
+    font-size: large;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sidebar_following {
+    border-top: 2px solid var(--highlight-background-color);
+    margin-right: 20px;
+}
+
+.sidebar_following_title {
+    font-size: small;
+    color: var(--secondary-text-color);
+    font-weight: bold;
+}
+
+.sidebar_following_accountList {    
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+}
